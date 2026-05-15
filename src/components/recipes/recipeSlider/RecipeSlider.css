@@ -1,0 +1,127 @@
+.recipe-slider {
+  width: 100%;
+  background: #f0ebe1;
+  padding: 12px 32px;
+  border-radius: 32px;
+  border: 1px solid #26252220;
+  margin-top: 80px;
+}
+
+.slider-container {
+  overflow: hidden;
+  width: 100%;
+}
+
+.slider-track {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+}
+
+.slider-control-btn {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 36px;
+  border-radius: 50%;
+  border: 1px solid #26252230;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-right: 5px;
+}
+
+/* HEADER */
+.slider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.slider-header h2 {
+  font-family: Montserrat;
+  font-weight: 700;
+  font-style: var(--fs-h2);
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+
+}
+
+/* ARROWS */
+.arrows {
+  display: flex;
+  justify-content: right;
+}
+
+.arrows button {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 1px solid #262522; 
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-left: 12px;
+  color: #262522!important; 
+}
+
+.arrows button:disabled {
+  opacity: 0.25;           
+  border-color: #262522!important;    
+  color: #262522;           
+  cursor: not-allowed;      
+}
+
+.arrows button:hover:not(:disabled) {
+  background: #262522;
+  color: #f0ebe1!important;
+}
+
+/* CARDS */
+.recipe-slider-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.recipe-slider-cards-wrapper {
+  overflow: hidden;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .recipe-slider-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .recipe-slider {
+    padding: 12px 24px !important;
+    border-radius: 20px;
+  }
+
+  .slider-header h2 {
+    font-size: 24px;
+  }
+  .slider-header {
+    flex-direction: column;
+    align-items: flex-start;
+  
+  }
+
+  .slider-track {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .slider-item {
+    width: 100%;
+  }
+}

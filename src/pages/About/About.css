@@ -1,0 +1,248 @@
+/* --- Hero Layout --- */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+.about-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 100px 0 100px 0; 
+  gap: 120px;
+  min-height: 400px; 
+}
+
+.hero-left {
+  flex: 1; 
+}
+
+.hero-left h1 {
+  font-family: 'Montserrat', sans-serif; 
+  font-weight: 800;
+  font-size: var(--fs-h1); 
+  line-height: 1.05;
+  text-transform: uppercase;
+}
+
+.hero-right {
+  flex: 1; 
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  max-width: 648px;
+  font-family: 'Roboto', sans-serif; 
+  font-size: var(--fs-p1);
+  line-height: 1.6;
+  color: var(--text-gray);
+}
+
+.btn-primary {
+  background-color: var(--primary-orange) !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-orange-dark) !important;
+}
+
+.content-card {
+  border: 1px solid rgba(38, 37, 34, 0.1);
+  border-radius: var(--br-main);
+  padding: 100px 40px; 
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+/* --- Chef Layout --- */
+.chef-container {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 100px;
+  align-items: center;
+}
+
+.chef-image-wrapper {
+  width: 100%;
+  max-width: 540px; 
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px; 
+}
+
+.main-chef-img {
+  width: 100%;
+  height: 480px; 
+  border-radius: var(--br-main);
+  object-fit: cover;
+  display: block;
+}
+
+.follow-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; 
+  background-color: var(--bg-main);
+  padding: 12px 28px;
+  border-radius: var(--br-main); 
+  border: 1px solid rgba(19, 19, 18, 0.349); 
+}
+
+.follow-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  color: var(--text-dark);
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.social-link {
+  color: var(--text-light);
+  font-size: 10px;
+  transition: 0.3s ease;
+  background-color: #000;
+  width: 18px; 
+  height: 18px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  background-color: var(--primary-orange);
+  transform: translateY(-3px);
+}
+
+.chef-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: var(--fs-h2);
+  line-height: 1.1;
+  margin-bottom: 25px;
+}
+
+.signature {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 24px;
+  margin-top: 15px;
+  display: block;
+  font-weight: 400;
+  color: var(--text-gray);
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  width: 100%;
+  padding: 0 20px;
+
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 240px; 
+  border-radius: 24px;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.02);
+}
+
+.chef-description p, .regards {
+  margin-bottom: 20px;
+  color: var(--text-gray);
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--fs-p2);
+  line-height: var(--lh-p2);
+  font-weight: 300;
+}
+
+
+@media (max-width: 1200px) {
+  .about-hero, .chef-container {
+    gap: 50px;
+  }
+  .hero-left h1 { font-size: calc(var(--fs-h1) * 0.8); }
+  .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+}
+/* --- Responsive Fixes --- */
+
+@media (max-width: 768px) {
+  .about-hero {
+    flex-direction: column;
+    padding: 60px 20px 40px 20px; 
+    gap: 0px;
+  }
+
+  .hero-left h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+
+  .hero-right {
+    max-width: 100%;
+    gap: 30px;
+  }
+
+  .hero-right p {
+    font-size: 15px;
+    padding: 0 10px;
+  }
+
+  .content-card {
+    padding: 40px 15px;
+    gap: 60px;
+    border: none; 
+  }
+
+  .chef-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .chef-image-wrapper {
+    max-width: 100%;
+    order: 1; 
+  }
+
+  .main-chef-img {
+    height: 320px; 
+    border-radius: 20px;
+  }
+
+  .chef-bio-content {
+    order: 2; 
+    padding: 0 5px;
+  }
+
+  .chef-title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .gallery-grid {
+    grid-template-columns: repeat(1, 1fr); 
+    padding: 0;
+  }
+
+  .gallery-grid img {
+    height: 180px;
+    border-radius: 16px;
+  }
+
+  .signature {
+    font-size: 20px;
+    margin: 10px auto;
+  }
+}

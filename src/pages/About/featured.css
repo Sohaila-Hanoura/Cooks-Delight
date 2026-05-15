@@ -1,0 +1,124 @@
+.featured-recipes {
+    padding: 50px 0 !important;
+}
+
+.featured {
+    background: var(--bg-main);
+    padding: 100px 60px;
+    border-radius: 40px;
+    border: 1px solid rgba(38, 37, 34, 0.1);
+    width: 100%;
+    max-width: 1320px;
+    box-sizing: border-box;
+    margin-top: 80px !important;
+
+}
+
+.no-border {
+    border: none !important;
+}
+
+.featured-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px !important;
+    padding-bottom: 35px !important;
+}
+
+.featured-header h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: var(--text-dark);
+}
+
+.featured-cards-grid {
+    display: grid;
+    gap: 40px;
+    margin-bottom: 25px;
+}
+
+.featured-cards-grid.two-cards {
+    grid-template-columns: repeat(2, 1fr) !important;
+}
+
+.featured-cards-grid.six-cards {
+    grid-template-columns: repeat(3, 1fr) !important;
+}
+
+@media (max-width: 1024px) {
+
+    .featured {
+        padding: 60px 30px;
+    }
+
+    .featured-cards-grid {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .featured {
+        padding: 40px 15px !important;
+    }
+
+    .featured-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin-bottom: 30px;
+    }
+
+    .featured-header h2 {
+        font-size: 26px !important;
+        width: 100%;
+        white-space: normal;
+    }
+
+    .arrows {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        gap: 6px !important;
+        
+    }
+
+    .featured-cards-grid {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .recipe-item-wrapper {
+        width: 100% !important;
+        max-width: none !important;
+    }
+
+    .card-action-layer {
+        position: static;
+        padding: 0 20px 20px 20px;
+        width: 100% !important;
+        display: block !important;
+        box-sizing: border-box;
+    }
+
+    .card-action-layer .btn {
+        width: 100% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 12px 0 !important;
+        font-size: 14px !important;
+    }
+
+    .featured-cards-grid.two-cards {
+        grid-template-columns: 1fr !important;
+    }
+
+    .featured-cards-grid.six-cards {
+        grid-template-columns: 1fr !important;
+    }
+}

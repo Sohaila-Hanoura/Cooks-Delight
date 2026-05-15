@@ -1,0 +1,27 @@
+[
+    {
+        "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&h=400&fit=crop",
+        "title": "Gluten-Free Alternatives",
+        "desc": "Explore gluten-free options that don't sacrifice taste — from almond flour pancakes to rice pasta and beyond."
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=600&h=400&fit=crop",
+        "title": "Plant-Based Cooking",
+        "desc": "Delight in plant-based meals packed with color, nutrients, and bold flavors that satisfy every craving."
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=600&h=400&fit=crop",
+        "title": "Allergy-Friendly Substitutions",
+        "desc": "Discover allergy-safe ideas for swapping dairy, eggs, nuts, and more without losing flavor or texture."
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&h=400&fit=crop",
+        "title": "Healthy Meals",
+        "desc": "Eat better every day with balanced, wholesome recipes built around fresh ingredients and smart nutrition."
+    },
+    {
+        "image": "https://images.unsplash.com/photo-1563379926898-05f4575a45d8?w=600&h=400&fit=crop",
+        "title": "Quick Recipes",
+        "desc": "Fast and easy meals ready in under 30 minutes — perfect for busy weeknights without compromising quality."
+    }
+]

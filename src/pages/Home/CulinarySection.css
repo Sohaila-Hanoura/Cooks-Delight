@@ -1,0 +1,108 @@
+.culinary-wrapper {
+  padding: 100px 0;
+  padding-bottom: 40px
+}
+
+.culinary-card {
+  padding: 60px 40px;
+  border-radius: 50px;
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.culinary-layout {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr 0.8fr;
+  grid-template-rows: 260px 300px;
+  gap:  25px;
+  grid-template-areas:
+    "content top-mid right-long"
+    "bottom-left bottom-left right-long";
+      margin-top: 50px;
+
+}
+
+.content-area {
+  grid-area: content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom:15px;
+}
+
+.img-top-middle { grid-area: top-mid; }
+.img-bottom-left { grid-area: bottom-left; }
+.img-right-long { grid-area: right-long; }
+
+.culinary-layout img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+  display: block;
+}
+
+.red-badge {
+  background-color: var(--primary-red);
+  color: var(--text-light);
+  font-size: var(--fs-btn);
+  font-weight: 500;
+  padding: 6px 15px;
+  border-radius: var(--br-main);
+  display: inline-block;
+  margin-bottom: 20px;
+  width: fit-content;
+}
+
+.culinary-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: var(--fs-h2);
+  line-height: 1.1;
+  color: #1d1d1d;
+  margin-bottom: 20px;
+}
+
+.culinary-text {
+  font-size: var(--fs-p2);
+  color: var(--text-black);
+  line-height: 1.6;
+  margin-bottom: 30px;
+  font-weight: 300!important;
+}
+
+.read-more-btn {
+  border: 1.5px solid #1d1d1d !important;
+  color: #1d1d1d !important;
+  border-radius: 50px !important;
+  padding: 10px 35px !important;
+  font-weight: 600 !important;
+  width: fit-content;
+}
+
+@media (max-width: 1024px) {
+  .culinary-wrapper { padding: 60px 0; }
+  .culinary-card { padding: 40px; }
+  .culinary-layout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "content content"
+      "top-mid right-long"
+      "bottom-left bottom-left";
+  }
+}
+
+@media (max-width: 768px) {
+  .culinary-wrapper { padding: 40px 0; }
+  .culinary-card { padding: 30px 20px; border-radius: 30px; }
+  .culinary-layout {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .btn-see-more{
+    display: none!important;
+  }
+  .culinary-title { font-size: 28px; }
+  .img-top-middle, .img-bottom-left, .img-right-long { height: 324px; }
+}

@@ -1,0 +1,43 @@
+:root {
+  /* Brand Colors */
+  --primary-red: #FF6653;
+  --primary-orange: #FFA032;
+  --primary-orange-dark: #dd8108;
+  --primary-green: #9FDC26;
+  --primary-blue: #C4E5FC;
+
+  --bg-main: #f0ebe1;
+  --bg-light: #FFFBF2;
+  --bg-overlay: rgba(185, 183, 179, 0.08);
+
+  --text-dark: #262522;
+  --text-gray: #8a8989;
+  --text-black: #000000;
+    --text-light: #FFFBF2;
+  
+
+
+  --fs-h1: 80px;      --lh-h1: 1.1;
+  --fs-h2: 40px;      --lh-h2: 1.2;
+  --fs-h3: 24px;      --lh-h3: 1.3;
+  --fs-p1: 21px;      --lh-p1: 1.5;
+  --fs-p2: 16px;      --lh-p2: 1.5;
+  --fs-btn: 14px;     --lh-btn: 1;
+
+  /* Mobile Typography */
+  --fs-h1-m: 38px;
+  --fs-h2-m: 26px;
+  --fs-p1-m: 16px;
+  --fs-p2-m: 14px;
+
+  /* Border Radius */
+  --br-main: 32px;
+  --br-btn: 24px;
+  --br-btn-m: 16px;
+
+  /* Page Spacing */
+   --max-width: 1440px;
+  --container-padding: 80px;
+  --container-padding-m: 20px;
+  --section-gap: 100px;    
+}

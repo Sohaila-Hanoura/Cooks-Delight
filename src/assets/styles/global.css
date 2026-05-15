@@ -1,0 +1,75 @@
+@import './variable.css'; 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg-main)!important;
+  color: var(--text-dark);
+  font-family: 'Inter', sans-serif; 
+  line-height: var(--lh-p2);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Typography Implementation */
+h1 {
+  font-size: var(--fs-h1);
+  line-height: var(--lh-h1);
+  color: var(--text-black);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: var(--fs-h2);
+  line-height: var(--lh-h2);
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: var(--fs-p1);
+  margin-bottom: 1rem;
+}
+
+/* Layout Containers */
+.container {
+  max-width: var(--max-width)!important;
+  margin: 0 auto!important;
+  padding: 0 var(--container-padding)!important;
+}
+
+/*  Button Style */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  font-size: var(--fs-btn);
+  border-radius: var(--br-btn);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: var(--primary-red);
+  color: white;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 var(--container-padding-m);
+  }
+  
+  h1 { font-size: var(--fs-h1-m); }
+  h2 { font-size: var(--fs-h2-m); }
+  p { font-size: var(--fs-p1-m); }
+}

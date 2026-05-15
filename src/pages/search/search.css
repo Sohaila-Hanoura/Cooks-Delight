@@ -1,0 +1,37 @@
+.search-page {
+    min-height: 60vh;
+}
+
+.recipe-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.recipes-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 24px;
+    padding: 0 32px 0 32px;
+}
+
+.no-results,
+.error-message {
+    text-align: center;
+    padding: 40px;
+    font-size: 1.2rem;
+    color: var(--text-gray);
+}
+
+.error-message {
+    color: #ff4d4f;
+}
+
+@media (max-width: 768px) {
+    .recipes-grid {
+        grid-template-columns: 1fr;
+        padding: 0 12px 0 12px;
+        gap: 12px;
+    }
+}

@@ -1,0 +1,93 @@
+.btn {
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Roboto"!important;
+  font-style: Medium;
+  letter-spacing: 1%;
+  text-transform: uppercase;
+  cursor: pointer;
+  border: none;
+  transition: 0.3s ease;
+}
+
+/* Orange Button  */
+.btn-primary {
+  background-color: #F29C33;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #e96e00;
+}
+
+/* The dark button */
+.btn-dark {
+  background-color: #262522;
+  color: white;
+}
+
+.btn-dark:hover {
+  background-color: #333;
+}
+
+/*  outline Button & "SEE MORE Button" & "view recipe Button" */
+.btn-outline,
+.viewRecipe {
+  background-color: transparent;
+  border: 1px solid #262522;
+  color: #333;
+
+}
+
+.btn-outline:hover {
+  background-color: #333;
+  color: white;
+}
+
+.btn-white {
+  background-color: transparent;
+  border: 1px solid #F0EBE1 !important;
+  color: #F0EBE1 !important;
+}
+
+.btn-white:hover {
+  background-color: #333;
+  border: 1px solid #333 !important;
+
+}
+
+/* pizza button & italia button */
+.btn-pizza,
+.btn-italia {
+  color: #262522;
+}
+
+/* pizza button & recipe button */
+.btn-pizza,
+.btn-recipe {
+  background-color: #EE6352;
+
+}
+
+.btn-recipe {
+  color: #FFFBF2;
+}
+
+.btn-pizza:hover {
+  background-color: #cf4e3d;
+}
+
+.btn-recipe:hover {
+  background-color: #cf4e3d;
+}
+
+/* italia button */
+.btn-italia {
+  background-color: #9FDC26;
+}
+
+.btn-italia:hover {
+  background-color: #7faf1f;
+}

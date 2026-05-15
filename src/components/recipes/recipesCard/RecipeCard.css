@@ -1,0 +1,113 @@
+.container {
+  max-width: var(--max-width) !important;
+  margin: 0 auto !important;
+  padding: 0 var(--container-padding) !important;
+}
+
+.recipe-card {
+  background: var(--white) !important; 
+  border-radius: var(--br-main);
+  overflow: hidden;
+  transition: all 0.35s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+
+.recipe-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.08);
+}
+
+.recipe-image {
+  width: 100%;
+  height: 210px;
+  overflow: hidden;
+}
+
+.recipe-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.4s;
+}
+
+.recipe-body {
+  padding: 30px 10px !important;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.recipe-title {
+  font-size: var(--fs-h3);
+  font-weight: 700;
+  color: #1d1d1d;
+  margin-bottom: 12px;
+}
+
+.recipe-desc {
+  font-size: var(--fs-p2);
+  color: var(--text-dark);
+  line-height: 1.6;
+  margin-bottom: 25px; 
+  height: 3.2em; 
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-weight: 300!important;
+}
+
+.recipe-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto; 
+  padding-top: 15px;
+}
+
+.recipe-meta {
+  display: flex;
+  gap: 8px;
+  font-size: 12px;
+  color:var(--text-black);
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.meta-divider {
+  color: var(--primary-color); 
+  font-weight: 600;
+}
+
+@media(max-width:998){
+    .recipe-btn, .recipe-card .btn {
+    order: 2;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    padding: 12px 0 !important;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .recipe-footer {
+    flex-direction: column;
+    align-items: flex-start!important; 
+    gap: 15px; 
+  }
+  .recipe-meta {
+    width: 100%;
+    order: 2; 
+  }
+  .recipe-btn, .recipe-card .btn {
+    order: 2;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center;
+    padding: 14px 0 !important;
+  }
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "t1",
+    "title": "Dry Your Meat",
+    "description": "Always pat meat dry with paper towels before searing to get a perfect crust.",
+    "importance": "Crucial",
+    "icon": "fire",
+    "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t2",
+    "title": "Don't Crowd the Pan",
+    "description": "Too much food drops the temperature; food will boil instead of frying.",
+    "importance": "High",
+    "icon": "utensils",
+    "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t3",
+    "title": "Season in Layers",
+    "description": "Don't just salt at the end. Seasoning throughout builds a deeper flavor.",
+    "importance": "Essential",
+    "icon": "salt",
+    "image": "https://images.unsplash.com/photo-1532336414038-cf19250c5757?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t4",
+    "title": "Rest Your Meat",
+    "description": "Let cooked meat rest for 5-10 minutes to keep the juices inside.",
+    "importance": "High",
+    "icon": "clock",
+    "image": "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t5",
+    "title": "Acid is the Key",
+    "description": "If a dish tastes flat, add lemon or vinegar to brighten all other flavors.",
+    "importance": "High",
+    "icon": "lemon",
+    "image": "https://images.unsplash.com/photo-1587486913049-53fc88980cfc?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t6",
+    "title": "Sharp Knives Only",
+    "description": "Dull knives are more dangerous as they are more likely to slip.",
+    "importance": "Crucial",
+    "icon": "shield",
+    "image": "https://images.unsplash.com/photo-1593618998160-e34014e67546?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t7",
+    "title": "Taste as You Go",
+    "description": "The only way to know if it needs more seasoning is to taste it constantly.",
+    "importance": "Essential",
+    "icon": "eye",
+    "image": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t8",
+    "title": "Room Temp Eggs",
+    "description": "Essential for perfect emulsions and fluffy results in baking.",
+    "importance": "Medium",
+    "icon": "egg",
+    "image": "https://images.unsplash.com/photo-1582722872445-44dc5f7e3c8f?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t9",
+    "title": "Preheat Your Pan",
+    "description": "Always heat your pan before adding oil and food to prevent sticking.",
+    "importance": "High",
+    "icon": "bolt",
+    "image": "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t10",
+    "title": "Save Pasta Water",
+    "description": "The starchy 'liquid gold' helps your sauce stick perfectly to the noodles.",
+    "importance": "Medium",
+    "icon": "water",
+    "image": "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t11",
+    "title": "Freeze Your Scraps",
+    "description": "Save onion skins and veggie tops in the freezer to make homemade broth.",
+    "importance": "Low",
+    "icon": "archive",
+    "image": "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t12",
+    "title": "Clean as You Go",
+    "description": "Keeps the kitchen manageable and makes the cooking process enjoyable.",
+    "importance": "High",
+    "icon": "brush",
+    "image": "https://images.unsplash.com/photo-1583947215259-38e31be8751f?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t13",
+    "title": "Use Fresh Spices",
+    "description": "Spices lose flavor after 6 months. Replace them regularly for best taste.",
+    "importance": "Medium",
+    "icon": "leaf",
+    "image": "https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t14",
+    "title": "Don't Peek in Oven",
+    "description": "Opening the door drops the temperature significantly and ruins the rise.",
+    "importance": "Medium",
+    "icon": "eye-slash",
+    "image": "https://images.unsplash.com/photo-1585325701956-60dd9c8553bc?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t15",
+    "title": "Zest Before Juicing",
+    "description": "It is much easier to zest a citrus fruit while it is still whole.",
+    "importance": "Low",
+    "icon": "info-circle",
+    "image": "https://images.unsplash.com/photo-1611800065908-233b597db552?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t16",
+    "title": "Use a Timer",
+    "description": "Never rely on memory. Use a timer to avoid overcooking your precious meals.",
+    "importance": "High",
+    "icon": "stopwatch",
+    "image": "https://images.unsplash.com/photo-1614963326505-1631108e98f0?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t17",
+    "title": "Keep a Trash Bowl",
+    "description": "Place a bowl on your counter for scraps to save trips to the bin.",
+    "importance": "Medium",
+    "icon": "trash",
+    "image": "https://images.unsplash.com/photo-1574085733277-851d9d856a3a?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t18",
+    "title": "Wet Towel Trick",
+    "description": "Put a damp paper towel under your board to keep it from sliding.",
+    "importance": "Crucial",
+    "icon": "anchor",
+    "image": "https://images.unsplash.com/photo-1522784081430-8ac6a814fc17?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t19",
+    "title": "Rotate Your Trays",
+    "description": "Most ovens have hot spots. Rotate your trays halfway through baking.",
+    "importance": "Medium",
+    "icon": "sync",
+    "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&h=400&fit=crop"
+  },
+  {
+    "id": "t20",
+    "title": "Measure Twice",
+    "description": "Especially in baking, accuracy is everything. Double check your measurements.",
+    "importance": "Essential",
+    "icon": "check-square",
+    "image": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?w=600&h=400&fit=crop"
+  }
+]
